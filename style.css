@@ -1,0 +1,16 @@
+/* This is a comment */
+
+/* Applicable for all the html elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Reference classes by putting a dot in front of their names */
+.header{
+    min-height: 100vh;
+    width: 100;
+    background-image: linear-gradient(rgba(4,9,30,0.7)),url(sample_images/Japan\ tower.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
